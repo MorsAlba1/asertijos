@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordenadas de tus cosas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Pistas de tus cosas</h1>
+    
+    <div class="container">
+        <h2>acertijo 1</h2>
+        <input type="password" id="input1" placeholder="Escribe la contraseña">
+        <button onclick="verificar(1, 'electrocenfalografista')">Verificar</button>
+        <p id="mensaje1" class="hidden">¡Correcto! (Valla veo que si sabes pensar pero apenas acaba de empezar, así que vamos a memorizar:
+        "En el corazón de la memoria, hallarás la clave. Piensa en los meses del año, pero no en los días. Suma los números de enero, abril y agosto, pero recuerda restar diciembre."
+        Eje X: Lo que obtengas al sumar y restar, multiplícalo por 3.
+        "Ahora mira al cielo nocturno: ¿Cuántas letras tienen Orion y Lyra? Suma el doble de Orion con el triple de Lyra."
+        Eje Z: Lo que hallaste, réstale 200 y a lo que te salga sumale -150."
+        Y el eje Y te lo regalo es: 62)</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 2</h2>
+        <input type="password" id="input2" placeholder="Escribe la contraseña">
+        <button onclick="verificar(2, '246810121416')">Verificar</button>
+        <p id="mensaje2" class="hidden">¡Correcto! (Tal vez ya estés arto pero porque no pasar un rato por lo alto. Por donde los pájaros vuelan me vas a encontrar y arriba de tu perro puedo estar)</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 3</h2>
+        <input type="password" id="input3" placeholder="Escribe la contraseña">
+        <button onclick="verificar(3, 'zxcvbnm')">Verificar</button>
+        <p id="mensaje3" class="hidden">¡Correcto! (Asta aquí has contado con Suerte pero Como todo lo que inicIa pronto fInaliza así que más te vale checar por qué este texto te puede ayudar.
+        Pista: todo lo que empieza por mayúsculas te puede ayudar, así que te toca buscar, una vez encontrado toca traducir (solo el texto de la incógnita) 
+        113 119 101 114 116 121)</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 4</h2>
+        <input type="password" id="input4" placeholder="Escribe la contraseña">
+        <button onclick="verificar(4, 'qwerty')">Verificar</button>
+        <p id="mensaje4" class="hidden">¡Correcto! (Es el idioma del que siempre suelo hablar y pero nunca lo sé con qué rimar así que te toca buscar.)</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 5</h2>
+        <input type="password" id="input5" placeholder="Escribe la contraseña">
+        <button onclick="verificar(5, 'catalan')">Verificar</button>
+        <p id="mensaje5" class="hidden">¡Correcto! Pronto esto acabará, ya no se con qué rimar así que te dejo disfrutar y el código te voy a dar: %|•¥©>]=§∆</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 6</h2>
+        <input type="password" id="input6" placeholder="Escribe la contraseña">
+        <button onclick="verificar(6, '%|•¥©>]=§∆')">Verificar</button>
+        <p id="mensaje6" class="hidden">¡Correcto! (Simplemente pregúntale a Giovanni la contraseña)</p>
+    </div>
+
+    <div class="container">
+        <h2>Acertijo 7</h2>
+        <input type="password" id="input7" placeholder="Escribe la contraseña">
+        <button onclick="verificar(7, 'contraseñaa')">Verificar</button>
+        <p id="mensaje7" class="hidden">¡Correcto!(Simplemente pideme tus cosas y te las dare)</p>
+    </div>
+
+    <div class="contador">
+        <p>Tiempo restante: <span id="contador"></span></p>
+    </div>
+
+    <footer>
+        <p>Creado por <a href="#">Ricardo OM</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
